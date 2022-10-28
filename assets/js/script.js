@@ -85,6 +85,22 @@ function findNum() {
   return answer;
 }
 
+// Prompt for special characters
+function findSpec() {
+  let answer = prompt("Include special characters? \n(Yes/No)").toLowerCase();
+
+  if (answer === "yes") {
+    answer = true;
+  } else if (answer === "no") {
+    answer = false;
+  } else {
+    alert("Type the word 'Yes' or the word 'No'");
+    findNum();
+  }
+
+  console.log(answer);
+  return answer;
+}
 
 // Testing:
 findNum();
