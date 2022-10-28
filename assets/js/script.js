@@ -51,6 +51,23 @@ function findLen() {
   return passLen;
 }
 
+// Prompt for lowercase chars
+function findLchar() {
+  // Does user want lowercase chars?
+  let answer = prompt("Include lowercase letters? \n(Yes/No)").toLowerCase();
+
+  if (answer === "yes") {
+    answer = true;
+  } else if (answer === "no") {
+    answer = false;
+  } else {
+    alert("Type the word 'Yes' or the word 'No'");
+    findLchar();
+  }
+
+  return answer;
+}
+
 // Prompt for uppercase chars
 function findUchar() {
   // Does user want uppercase chars?
@@ -81,7 +98,6 @@ function findNum() {
     findNum();
   }
 
-  console.log(answer);
   return answer;
 }
 
@@ -98,12 +114,25 @@ function findSpec() {
     findNum();
   }
 
-  console.log(answer);
   return answer;
 }
 
+// Make the password 
+function generatePassword() {
+  // Prompt the user for password criteria and assign answers to vars
+  let passwordLength = findLen();
+  let isLowerChars = findLchar();
+  let IsUpperChars = findUchar();
+  let IsNums = findNum();
+  let isSpec = findSpec();
+
+
+
+  console.log(passwordLength, IsUpperChars, IsNums, isSpec);
+}
+
 // Testing:
-findNum();
+generatePassword();
 
 // Write password to the #password input
 function writePassword() {
