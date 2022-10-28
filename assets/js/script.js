@@ -54,13 +54,23 @@ function findLen() {
 // Prompt for uppercase chars
 function findUchar() {
   // Does user want uppercase chars?
-  let answer = prompt("Include uppercase letters? \n(Yes/No)");
-  
+  let answer = prompt("Include uppercase letters? \n(Yes/No)").toLowerCase();
+
+  if (answer === "yes") {
+    answer = true;
+  } else if (answer === "no") {
+    answer = false;
+  } else {
+    alert("Type the word 'Yes' or the word 'No'");
+    findUchar();
+  }
+
+  return answer;
 }
 
 
 // Testing:
-findLen();
+findUchar();
 
 // Write password to the #password input
 function writePassword() {
