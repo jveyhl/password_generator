@@ -68,9 +68,26 @@ function findUchar() {
   return answer;
 }
 
+// Prompt for numbers
+function findNum() {
+  let answer = prompt("Include numbers? \n(Yes/No)").toLowerCase();
+
+  if (answer === "yes") {
+    answer = true;
+  } else if (answer === "no") {
+    answer = false;
+  } else {
+    alert("Type the word 'Yes' or the word 'No'");
+    findNum();
+  }
+
+  console.log(answer);
+  return answer;
+}
+
 
 // Testing:
-findUchar();
+findNum();
 
 // Write password to the #password input
 function writePassword() {
