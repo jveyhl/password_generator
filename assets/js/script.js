@@ -179,7 +179,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
   // Update the value if <textarea> to the newly generated password
   passwordText.value = password;
-  // passwordText.textContent = password;
 }
 
 
