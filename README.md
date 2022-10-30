@@ -4,14 +4,14 @@
 
 An application that generates a random password based on selecting the following criteria: 
 
-- A password legnth between 8 and 128 characters.
+- A password length between 8 and 128 characters.
 
-- Selecting the password contents to include lowercase, uppercse, numeric and/or special characters.
+- Selecting the password contents to include lowercase, uppercase, numeric and/or special characters.
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [Screenshot](#screenshot)
+- [Mock-Up](#mock_up)
 - [Deployed_Application](#deployed_application)
 - [Usage](#usage)
 - [Credits](#credits)
