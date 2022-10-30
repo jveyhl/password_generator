@@ -12,7 +12,7 @@ An application that generates a random password based on selecting the following
 
 - [Installation](#installation)
 - [Mock-Up](#mock-up)
-- [Deployed_Application](#deployed-application)
+- [Deployed Application](#deployed-application)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
