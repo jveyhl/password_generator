@@ -11,8 +11,8 @@ An application that generates a random password based on selecting the following
 ## Table of Contents
 
 - [Installation](#installation)
-- [Mock-Up](#mock_up)
-- [Deployed_Application](#deployed_application)
+- [Mock-Up](#mock up)
+- [Deployed_Application](#deployed application)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
@@ -21,13 +21,13 @@ An application that generates a random password based on selecting the following
 
 N/A
 
-## Mock-UP
+## Mock Up
 
 The following image shows the web application's appearance and functionality:
 
 ![Alt text](/assets/images/03-javascript-homework-demo.png "Mock-Up")
 
-## Deployed_Application
+## Deployed Application
 
 https://jveyhl.github.io/password_generator/
 
