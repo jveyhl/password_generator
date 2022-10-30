@@ -11,8 +11,8 @@ An application that generates a random password based on selecting the following
 ## Table of Contents
 
 - [Installation](#installation)
-- [Mock-Up](#mock up)
-- [Deployed_Application](#deployed application)
+- [Mock-Up](#mock-up)
+- [Deployed_Application](#deployed_application)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
